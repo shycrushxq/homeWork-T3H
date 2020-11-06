@@ -1,0 +1,16 @@
+.container { 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.navbar {
+    margin: 50px;
+}
+.navbar-brand {
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+.navbar a:hover {
+    color: rgb(115, 55, 117) !important;
+}
