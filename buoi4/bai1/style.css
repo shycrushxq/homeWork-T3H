@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding:0;
+
+}
+body {
+    margin: 2rem;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.table {
+    height: 300px;
+    width: 400px;
+    overflow: scroll;
+    margin: auto;
+}
+/*.table .table-gradient {
+/*    background: rgb(173,97,226);
+background: linear-gradient(90deg, rgba(173,97,226,1) 0%, rgba(212,226,229,1) 100%);
+
+color: white;
+}*/
+
+table {
+    padding: 1rem;
+    width: 700px;
+    min-height: 300px;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #dfe2e6;
+}
+img {
+    width: 10px;
+    margin-left: 4px;
+}
