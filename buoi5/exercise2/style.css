@@ -31,14 +31,11 @@ body {
     display: flex;
     margin-top: 10px;
 }
-.col-content-iterm img {
-    
-}
 .col-content .col-content-iterm .text-content {
     padding-left: 0px !important;
     transform: translate(-10px, 0px);
 }
 .col-content-iterm {
     padding: 0px 50px 0px 0px;
-    width: 40%%;
+    width: 40%;
 } 
