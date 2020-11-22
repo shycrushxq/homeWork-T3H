@@ -17,6 +17,7 @@ div.a {
   div.c {
     width: 150px;
     height: 80px;
-    background-color: yellow;
+    background-color: black;
+    color: blue;
     -ms-transform: scaleY(1.5); /* IE 9 */
     transform: scaleY(1.5);
