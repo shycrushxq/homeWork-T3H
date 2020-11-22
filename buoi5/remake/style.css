@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.menu {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    background:#344146;
+}
+.menu >li {
+    position: relative;
+    padding: 8px 13px;
+    border-right: 1px dotted #ccc;
+}
+.menu >li > ul {
+    position: absolute;
+    background: #344146;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.menu >li:hover > ul {
+    display: block;
+}
+.menu > li > ul > li {
+    padding: 8px 13px;
+    display: ;
+}
+
+.menu li:hover {
+    background: #169ACC;
+}
+
+.menu li:hover >ul {
+    display: block;
+}
+.menu .menu-active {
+    background: #169ACC;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
