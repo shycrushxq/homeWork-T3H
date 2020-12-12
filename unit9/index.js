@@ -106,4 +106,5 @@ const getBestAndBadStudent = (arrStudent) => {
   temp.push(arrStudent.pop())
   temp.push(arrStudent.shift())
   console.log(temp)
+  
 }
