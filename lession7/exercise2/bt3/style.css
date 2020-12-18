@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.above {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(229,229,229);
+}
+.main {
+    background-color: rgb(78,83,102);
+}
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0px 30px 0px ;
+}
+.tittle .nav .home {
+    color: white;
+    font-size: 1.7rem;
+    padding-right: 10px;    
+    font-weight: lighter;
+}
+.tittle .nav .bedRoom {
+    color: white;
+    opacity: 0.5;
+    border-left: 1px rgb(189, 187, 187) solid;
+    padding-left: 10px;
+}
+.tittle .nav a:hover {
+    text-decoration: none;
+}
+.tittle .menu button {
+    color: white;
+    border: none;
+    outline: none;
+    background-color: rgb(78,83,102);
+}
+.intro {
+    display: flex;
+    padding: 0px;
+    margin: 0 ;
+}
+.intro .introTextOver {
+    height: 200px;
+    background-color: rgb(77,170,175);
+}
+.intro .introTextBelow {
+    height: 200px;
+    color: rgb(106,200,174);
+}
