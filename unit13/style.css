@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: auto;
+    padding: 50px;
+}
+.ex1 {
+    height: 30px;
+    width: auto;
+    color: pink;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    margin: 30px;
+}
+
